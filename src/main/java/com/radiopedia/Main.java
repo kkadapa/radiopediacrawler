@@ -1,5 +1,7 @@
 package com.radiopedia;
 
+import java.io.File;
+
 /**
  * Created by karthik on 3/30/15.
  */
@@ -17,7 +19,7 @@ public class Main {
 //        }
 
         //For All Pages Details Page Data
-        for(int i=1;i<=1;i++) {
+        for(int i=41;i<=100;i++) {
             String detailUrl = "http://radiopaedia.org/encyclopaedia/cases/all?page="+i;
             ParseCaseDetailPage.parseCaseDetails(detailUrl);
             System.out.println("Page no "+i);
